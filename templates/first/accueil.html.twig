@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block title %}Accueil{% endblock %}
+{% block body %}
+
+    {% block titre %}Notre site{% endblock %}
+    {% block menu %}
+        <ul>
+            <li><a href="{{ path("Accueil") }}">Accueil</a></li>
+            <li><a href="{{ path("first") }}"title="Affichage de debugage de notre premier contrôller"target="_blank">my first</a> </li>
+            <li><a href="{{ path("third") }}">page nous présentant</a> </li>
+        </ul>
+    {% endblock %}
+    {% block contenu %}{% endblock %}
+{% endblock %}
