@@ -14,3 +14,5 @@ git remote add name URL/GIT
 git push ori master
 
 ## creating readme.md
+
+## updating librair
