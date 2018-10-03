@@ -15,4 +15,25 @@ git push ori master
 
 ## creating readme.md
 
-## updating librair
+## updating librairies
+composer update
+
+## structure MVC
+frontal controller: public/index.php
+
+models: src/Entity
+
+views: templates/
+
+controllers: src/controller/
+
+## file type best practise
+
+yaml => configuration
+
+routing => annotations
+
+datas => json or other
+
+## create first controller
+php bin/console make:controller
